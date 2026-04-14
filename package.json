@@ -1,0 +1,26 @@
+{
+  "name": "bantaymanilav2",
+  "version": "1.0.0",
+  "main": "admin-init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asherpete/BantayManila.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asherpete/BantayManila/issues"
+  },
+  "homepage": "https://github.com/Asherpete/BantayManila#readme",
+  "description": "",
+  "devDependencies": {
+    "vite": "^8.0.8"
+  }
+}

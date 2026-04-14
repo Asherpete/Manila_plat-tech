@@ -550,7 +550,7 @@ nav.scrolled {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url('https://www.figma.com/api/mcp/asset/f01c8075-d5b9-4515-bd7c-a66bd546dee5');
+    background-image: url('./Images/intramuros.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -716,7 +716,7 @@ nav.scrolled {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('https://www.figma.com/api/mcp/asset/d2b65153-8698-4d4f-90b6-35e240543cb6');
+    background-image: url('./Images/About.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0.08;
@@ -806,7 +806,7 @@ nav.scrolled {
 .mission-bg {
     position: absolute;
     inset: 0;
-    background-image: url('https://www.figma.com/api/mcp/asset/9c13638c-e9f5-4f9e-a7dc-bf4c6740224c');
+    background-image: url('./Images/Article-GuideToManila-CityTEC.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -962,7 +962,7 @@ nav.scrolled {
 .cta-bg {
     position: absolute;
     inset: 0;
-    background-image: url('https://www.figma.com/api/mcp/asset/f01c8075-d5b9-4515-bd7c-a66bd546dee5');
+    background-image: url('./Images/Article-GuideToManila-CityTEC.jpeg');
     background-size: cover;
     background-position: center bottom;
     background-attachment: fixed;

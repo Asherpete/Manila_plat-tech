@@ -20,19 +20,12 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 const firebaseConfig = {
-  // apiKey: "AIzaSyD1Oi2atEUsuLsxSLAIWNuiv9HciT8v9t8",
-  // authDomain: "login-example-528b8.firebaseapp.com",
-  // projectId: "login-example-528b8",
-  // storageBucket: "login-example-528b8.firebasestorage.app",
-  // messagingSenderId: "157271016616",
-  // appId: "1:157271016616:web:1d61c87741c1263c0b2e9d",
-
-  apiKey: "AIzaSyDFGBPp0t6jmgPJhiqlHsgvh1MAH7I8NLQ",
-  authDomain: "bantaymanila-main--database.firebaseapp.com",
-  projectId: "bantaymanila-main--database",
-  storageBucket: "bantaymanila-main--database.firebasestorage.app",
-  messagingSenderId: "627259915945",
-  appId: "1:627259915945:web:f812f1b4b44629c091b3b8",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
